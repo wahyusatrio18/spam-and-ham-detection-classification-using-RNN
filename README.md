@@ -28,4 +28,21 @@ In this paper, I discuss a method of classifying spam messages using the recurre
  Therefore, evaluation is conducted on the test data to determine the level of accuracy and loss. 
  Training and validation loss as well as training and validation accuracy were visualized to evaluate the different performance of the model. 
  
- 
+ Hasil dan Analisis
+
+Model RNN yang dibangun mencapai akurasi di atas 98% pada data pelatihan, menunjukkan bahwa model mampu belajar dengan baik dari data. Namun, terdapat indikasi overfitting pada data validasi, yang ditunjukkan oleh peningkatan validation loss setelah beberapa epoch. Meski begitu, model tetap menunjukkan kemampuan yang baik dalam mengklasifikasikan pesan teks sebagai spam atau ham.
+Kesimpulan
+
+Proyek ini berhasil mengembangkan model yang efektif untuk klasifikasi teks menggunakan teknik RNN berbasis LSTM. Namun, untuk meningkatkan performa model lebih lanjut, disarankan untuk melakukan langkah-langkah seperti meningkatkan regularisasi, menambah data pelatihan, atau mencoba arsitektur model yang lebih kompleks.
+
+Teknologi yang Digunakan
+
+    Python: Digunakan untuk pengolahan data dan pengembangan model.
+    Keras & TensorFlow: Framework yang digunakan untuk membangun dan melatih model neural network.
+    Scikit-learn: Digunakan untuk preprocessing data dan evaluasi performa model.
+    Numpy & Pandas: Untuk manipulasi data dan analisis numerik.
+    Matplotlib & Seaborn: Untuk visualisasi data dan hasil evaluasi model.
+
+GitHub Repository
+
+Untuk melihat kode lengkap dari proyek ini, dokumentasi, dan instruksi tentang cara menjalankan proyek, kunjungi repository GitHub berikut: GitHub Repository.
