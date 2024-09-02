@@ -9,15 +9,15 @@ In this paper, I discuss a method of classifying spam messages using the recurre
  Project Steps 
  
  Data Preprocessing: 
- Tokenisation: Text pre-processing: converting text messages to tokens or single words. 
- Stopwords Removal: Elimination of the stop words which are not useful in the classification of the documents. 
- Stemming: Make words as simple as possible so as to reduce model complexity and to get the best results. 
- Padding: Normalises spam messages to the intended length to allow LSTM model to process all of the messages properly. 
+ - Tokenisation: Text pre-processing: converting text messages to tokens or single words. 
+ - Stopwords Removal: Elimination of the stop words which are not useful in the classification of the documents. 
+ - Stemming: Make words as simple as possible so as to reduce model complexity and to get the best results. 
+ - Padding: Normalises spam messages to the intended length to allow LSTM model to process all of the messages properly. 
  
  Building the RNN Model: 
- Applying LSTM layer for handling with the order between words in text. 
- Implemented more Dropout and L2 Regularisation layers for the purpose of avoiding overfitting. 
- For binary classification Dense layer with sigmoid activation function is used. 
+ - Applying LSTM layer for handling with the order between words in text. 
+ - Implemented more Dropout and L2 Regularisation layers for the purpose of avoiding overfitting. 
+ - For binary classification Dense layer with sigmoid activation function is used. 
  
  Model Training: 
  The proposed model was trained using Adam optimiser and binary cross entropy loss function. 
